@@ -6,15 +6,22 @@ plugins {
 
 group 'com.mercadao'
 version '1.0-SNAPSHOT'
-
 sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    maven { url 'https://repo.spring.io/milestone' }
+}
+
+ext {
+    set('springCloudVersion', "Hoxton.SR1")
 }
 
 dependencies {
-    compile group: 'com.netflix.eureka', name: 'eureka-server', version: '1.9.16'
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
 
     implementation 'org.springframework.boot:spring-boot-dependencies:2.2.3.RELEASE'
     implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -37,4 +44,10 @@ dependencies {
 
 bootJar {
     mainClassName = 'com.mercadao.eurekaserver.EurekaServerApplication'
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
 }
