@@ -10,10 +10,10 @@
 * [H2 Database](http://www.h2database.com/html/main.html)
 * [Gradle](https://gradle.org/)
 
-* Service Discovery: Eureka (https://cloud.spring.io/spring-cloud-netflix/multi/multi__service_discovery_eureka_clients.html)
-* Circuit Breaker: Hystrix (https://cloud.spring.io/spring-cloud-netflix/multi/multi__circuit_breaker_hystrix_clients.html)
-* Client Side Load Balancer: Ribbon (https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-ribbon.html)
-* Router and Filter: Zuul (https://cloud.spring.io/spring-cloud-netflix/multi/multi__router_and_filter_zuul.html)
+* [Service Discovery: Eureka] (https://cloud.spring.io/spring-cloud-netflix/multi/multi__service_discovery_eureka_clients.html)
+* [Circuit Breaker: Hystrix] (https://cloud.spring.io/spring-cloud-netflix/multi/multi__circuit_breaker_hystrix_clients.html)
+* [Client Side Load Balancer: Ribbon] (https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-ribbon.html)
+* [Router and Filter: Zuul] (https://cloud.spring.io/spring-cloud-netflix/multi/multi__router_and_filter_zuul.html)
 
 ## References
 
