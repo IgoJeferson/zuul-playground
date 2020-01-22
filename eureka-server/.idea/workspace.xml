@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58b3c7cb-4a1e-40ac-b438-4863c5fed827" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/mercadao/apigateway/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/test/java/com/mercadao/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.attach_pid9950" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ticket-service/src/main/java/com/mercadao/ticketservice/controller/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ticket-service/src/main/java/com/mercadao/ticketservice/controller/TicketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ticket-service/src/main/java/com/mercadao/ticketservice/domain/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ticket-service/src/main/java/com/mercadao/ticketservice/domain/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ticket-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ticket-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +137,7 @@
       <updated>1579635266922</updated>
       <workItem from="1579635268878" duration="2116000" />
       <workItem from="1579637546293" duration="1307000" />
-      <workItem from="1579639046741" duration="13488000" />
+      <workItem from="1579639046741" duration="14735000" />
     </task>
     <task id="LOCAL-00001" summary="- Included gradle dependencies for correct springboot project structuring&#10;- Add eureka server configuration">
       <created>1579637309047</created>
@@ -211,46 +191,46 @@
     </state>
     <state x="466" y="56" width="424" height="649" key="FileChooserDialogImpl/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639068319" />
     <state x="1832" y="32" width="424" height="649" key="FileChooserDialogImpl/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579703046605" />
-    <state width="1870" height="370" key="GridCell.Tab.0.bottom" timestamp="1579716776988">
+    <state width="1870" height="370" key="GridCell.Tab.0.bottom" timestamp="1579718602593">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.0.bottom/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532421" />
-    <state width="1870" height="370" key="GridCell.Tab.0.bottom/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776988" />
-    <state width="1870" height="370" key="GridCell.Tab.0.center" timestamp="1579716776988">
+    <state width="1870" height="370" key="GridCell.Tab.0.bottom/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579718602593" />
+    <state width="1870" height="370" key="GridCell.Tab.0.center" timestamp="1579718602593">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.0.center/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532420" />
-    <state width="1870" height="370" key="GridCell.Tab.0.center/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776988" />
-    <state width="1870" height="370" key="GridCell.Tab.0.left" timestamp="1579716776987">
+    <state width="1870" height="370" key="GridCell.Tab.0.center/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579718602593" />
+    <state width="1870" height="370" key="GridCell.Tab.0.left" timestamp="1579718602592">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.0.left/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532420" />
-    <state width="1870" height="370" key="GridCell.Tab.0.left/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776987" />
-    <state width="1870" height="370" key="GridCell.Tab.0.right" timestamp="1579716776988">
+    <state width="1870" height="370" key="GridCell.Tab.0.left/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579718602592" />
+    <state width="1870" height="370" key="GridCell.Tab.0.right" timestamp="1579718602593">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.0.right/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532421" />
-    <state width="1870" height="370" key="GridCell.Tab.0.right/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776988" />
-    <state width="1870" height="370" key="GridCell.Tab.1.bottom" timestamp="1579716776988">
+    <state width="1870" height="370" key="GridCell.Tab.0.right/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579718602593" />
+    <state width="1870" height="370" key="GridCell.Tab.1.bottom" timestamp="1579718602593">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.1.bottom/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532421" />
-    <state width="1870" height="370" key="GridCell.Tab.1.bottom/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776988" />
-    <state width="1870" height="370" key="GridCell.Tab.1.center" timestamp="1579716776988">
+    <state width="1870" height="370" key="GridCell.Tab.1.bottom/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579718602593" />
+    <state width="1870" height="370" key="GridCell.Tab.1.center" timestamp="1579718602593">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.1.center/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532421" />
-    <state width="1870" height="370" key="GridCell.Tab.1.center/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776988" />
-    <state width="1870" height="370" key="GridCell.Tab.1.left" timestamp="1579716776988">
+    <state width="1870" height="370" key="GridCell.Tab.1.center/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579718602593" />
+    <state width="1870" height="370" key="GridCell.Tab.1.left" timestamp="1579718602593">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.1.left/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532421" />
-    <state width="1870" height="370" key="GridCell.Tab.1.left/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776988" />
-    <state width="1870" height="370" key="GridCell.Tab.1.right" timestamp="1579716776988">
+    <state width="1870" height="370" key="GridCell.Tab.1.left/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579718602593" />
+    <state width="1870" height="370" key="GridCell.Tab.1.right" timestamp="1579718602593">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.1.right/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532421" />
-    <state width="1870" height="370" key="GridCell.Tab.1.right/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776988" />
+    <state width="1870" height="370" key="GridCell.Tab.1.right/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579718602593" />
     <state x="1630" y="0" width="827" height="768" key="NewModule_or_Project.wizard" timestamp="1579703048278">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>

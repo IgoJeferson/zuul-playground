@@ -24,8 +24,23 @@ zuul:
       path: /product/**
       serviceId: PRODUCT-SERVICE
       strip-prefix: false
+    external-service:
+      path: /external/**
+      serviceId: external-service
   host:
     socket-timeout-millis: 30000
+
   ribbon:
+    eureka:
+      enabled: false
     eager-load:
       enabled: true
+
+external-service:
+  ribbon:
+    listOfServers: https://httpbin.org/
+    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
+    ConnectTimeout: 1000
+    ReadTimeout: 3000
+    MaxTotalHttpConnections: 500
+    MaxConnectionsPerHost: 100
