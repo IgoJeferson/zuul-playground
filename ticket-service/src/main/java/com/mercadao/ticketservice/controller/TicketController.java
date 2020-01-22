@@ -10,24 +10,25 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mercadao.ticketservice.domain.Ticket;
 import com.mercadao.ticketservice.repository.TicketRepository;
 
-@RestController
+@RestController()
+@RequestMapping("/ticket")
 public class TicketController {
 
     @Autowired
     TicketRepository ticketRepository;
 
-    @GetMapping(value = "/ticket")
+    @GetMapping
     public Iterable<Ticket> all() {
         return ticketRepository.findAll();
     }
 
-    @RequestMapping(value = "/ticket/{numeroticket}/", method = RequestMethod.GET)
-    public Ticket findByTicketId(@PathVariable Integer numeroticket) {
-        return ticketRepository.findTicketByNumeroPremiado(numeroticket);
+    @GetMapping("/{numeroPremiado}/")
+    public Ticket findTicketByNumeroPremiado(@PathVariable Integer numeroPremiado) {
+        return ticketRepository.findTicketByNumeroPremiado(numeroPremiado);
     }
 
-    @GetMapping(value = "/ticket/product/{productId}")
-    public Ticket findByTicketProduct(@PathVariable Integer productId) {
+    @GetMapping("/product/{productId}")
+    public Ticket findAllByProductId(@PathVariable Integer productId) {
         return ticketRepository.findAllByProductId(productId);
     }
 }

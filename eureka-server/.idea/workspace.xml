@@ -2,45 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58b3c7cb-4a1e-40ac-b438-4863c5fed827" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/src/main/java/com/mercadao/productservice/ProductServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/src/main/java/com/mercadao/productservice/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/src/main/java/com/mercadao/productservice/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/src/main/java/com/mercadao/productservice/domain/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/src/main/java/com/mercadao/productservice/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/src/main/java/com/mercadao/productservice/service/TicketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/src/main/java/com/mercadao/productservice/service/TicketServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-service/src/test/java/com/mercadao/productservice/ProductServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ticket-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ticket-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/mercadao/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api-gateway/src/test/java/com/mercadao/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid9950" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mercadao/eurekaserver/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mercadao/eurekaserver/EurekaServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/mercadao/eurekaserver/controller/HelloGradleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/mercadao/eurekaserver/controller/HelloGradleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../product-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ticket-service/src/main/java/com/mercadao/ticketservice/controller/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ticket-service/src/main/java/com/mercadao/ticketservice/controller/TicketController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ticket-service/src/main/java/com/mercadao/ticketservice/domain/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ticket-service/src/main/java/com/mercadao/ticketservice/domain/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ticket-service/src/main/java/com/mercadao/ticketservice/repository/TicketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ticket-service/src/main/java/com/mercadao/ticketservice/repository/TicketRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ticket-service/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../ticket-service/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ticket-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ticket-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +34,9 @@
     <option name="done" value="true" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../api-gateway">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
@@ -67,6 +53,9 @@
         <projects_view />
       </state>
     </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="eureka-server" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,7 +90,7 @@
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../product-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api-gateway" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -114,7 +103,14 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Spring Boot.TicketServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mercadao.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mercadao.eurekaserver.EurekaServerApplication" />
@@ -161,7 +157,7 @@
       <updated>1579635266922</updated>
       <workItem from="1579635268878" duration="2116000" />
       <workItem from="1579637546293" duration="1307000" />
-      <workItem from="1579639046741" duration="4206000" />
+      <workItem from="1579639046741" duration="13488000" />
     </task>
     <task id="LOCAL-00001" summary="- Included gradle dependencies for correct springboot project structuring&#10;- Add eureka server configuration">
       <created>1579637309047</created>
@@ -177,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579639942727</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- Add product service microservice: Product service register in eureka server and calls for ticket service using circuit break pattern">
+      <created>1579700349864</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579700349864</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,78 +190,79 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="- Included gradle dependencies for correct springboot project structuring&#10;- Add eureka server configuration" />
     <MESSAGE value="- Add ticket service microservice" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Add ticket service microservice" />
+    <MESSAGE value="- Add product service microservice: Product service register in eureka server and calls for ticket service using circuit break pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Add product service microservice: Product service register in eureka server and calls for ticket service using circuit break pattern" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1507" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579636996668">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1507" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579636996668" />
-    <state x="1366" y="119" width="374" height="649" key="#com.intellij.ide.util.MemberChooser" timestamp="1579699532472">
+    <state x="1366" y="119" width="374" height="649" key="#com.intellij.ide.util.MemberChooser" timestamp="1579706778674">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1366" y="119" width="374" height="649" key="#com.intellij.ide.util.MemberChooser/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579699532472" />
+    <state x="1366" y="119" width="374" height="649" key="#com.intellij.ide.util.MemberChooser/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579706778674" />
     <state x="1366" y="0" width="1366" height="768" key="CommitChangelistDialog2" timestamp="1579700347525">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1366" y="0" width="1366" height="768" key="CommitChangelistDialog2/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579700347525" />
-    <state x="1832" y="32" width="424" height="649" key="FileChooserDialogImpl" timestamp="1579699644135">
+    <state x="1832" y="32" width="424" height="649" key="FileChooserDialogImpl" timestamp="1579703046605">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="466" y="56" width="424" height="649" key="FileChooserDialogImpl/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639068319" />
-    <state x="1832" y="32" width="424" height="649" key="FileChooserDialogImpl/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579699644135" />
-    <state width="1870" height="370" key="GridCell.Tab.0.bottom" timestamp="1579700010018">
+    <state x="1832" y="32" width="424" height="649" key="FileChooserDialogImpl/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579703046605" />
+    <state width="1870" height="370" key="GridCell.Tab.0.bottom" timestamp="1579716776988">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.0.bottom/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532421" />
-    <state width="1870" height="370" key="GridCell.Tab.0.bottom/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579700010018" />
-    <state width="1870" height="370" key="GridCell.Tab.0.center" timestamp="1579700010017">
+    <state width="1870" height="370" key="GridCell.Tab.0.bottom/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776988" />
+    <state width="1870" height="370" key="GridCell.Tab.0.center" timestamp="1579716776988">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.0.center/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532420" />
-    <state width="1870" height="370" key="GridCell.Tab.0.center/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579700010017" />
-    <state width="1870" height="370" key="GridCell.Tab.0.left" timestamp="1579700010017">
+    <state width="1870" height="370" key="GridCell.Tab.0.center/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776988" />
+    <state width="1870" height="370" key="GridCell.Tab.0.left" timestamp="1579716776987">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.0.left/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532420" />
-    <state width="1870" height="370" key="GridCell.Tab.0.left/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579700010017" />
-    <state width="1870" height="370" key="GridCell.Tab.0.right" timestamp="1579700010018">
+    <state width="1870" height="370" key="GridCell.Tab.0.left/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776987" />
+    <state width="1870" height="370" key="GridCell.Tab.0.right" timestamp="1579716776988">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.0.right/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532421" />
-    <state width="1870" height="370" key="GridCell.Tab.0.right/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579700010018" />
-    <state width="1870" height="370" key="GridCell.Tab.1.bottom" timestamp="1579700010018">
+    <state width="1870" height="370" key="GridCell.Tab.0.right/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776988" />
+    <state width="1870" height="370" key="GridCell.Tab.1.bottom" timestamp="1579716776988">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.1.bottom/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532421" />
-    <state width="1870" height="370" key="GridCell.Tab.1.bottom/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579700010018" />
-    <state width="1870" height="370" key="GridCell.Tab.1.center" timestamp="1579700010018">
+    <state width="1870" height="370" key="GridCell.Tab.1.bottom/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776988" />
+    <state width="1870" height="370" key="GridCell.Tab.1.center" timestamp="1579716776988">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.1.center/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532421" />
-    <state width="1870" height="370" key="GridCell.Tab.1.center/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579700010018" />
-    <state width="1870" height="370" key="GridCell.Tab.1.left" timestamp="1579700010018">
+    <state width="1870" height="370" key="GridCell.Tab.1.center/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776988" />
+    <state width="1870" height="370" key="GridCell.Tab.1.left" timestamp="1579716776988">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.1.left/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532421" />
-    <state width="1870" height="370" key="GridCell.Tab.1.left/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579700010018" />
-    <state width="1870" height="370" key="GridCell.Tab.1.right" timestamp="1579700010018">
+    <state width="1870" height="370" key="GridCell.Tab.1.left/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776988" />
+    <state width="1870" height="370" key="GridCell.Tab.1.right" timestamp="1579716776988">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1316" height="235" key="GridCell.Tab.1.right/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639532421" />
-    <state width="1870" height="370" key="GridCell.Tab.1.right/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579700010018" />
-    <state x="1630" y="0" width="827" height="701" key="NewModule_or_Project.wizard" timestamp="1579699645846">
+    <state width="1870" height="370" key="GridCell.Tab.1.right/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579716776988" />
+    <state x="1630" y="0" width="827" height="768" key="NewModule_or_Project.wizard" timestamp="1579703048278">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="264" y="27" width="827" height="701" key="NewModule_or_Project.wizard/0.27.1366.701/1366.0.1366.768@0.27.1366.701" timestamp="1579639070004" />
-    <state x="1630" y="0" key="NewModule_or_Project.wizard/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579699645846" />
-    <state x="1644" y="116" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1579639944852">
+    <state x="1630" y="0" width="827" height="768" key="NewModule_or_Project.wizard/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579703048278" />
+    <state x="1644" y="116" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1579700352380">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1644" y="116" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579639944852" />
-    <state x="1376" y="0" width="1356" height="768" key="new project wizard" timestamp="1579698524061">
+    <state x="1644" y="116" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579700352380" />
+    <state x="1376" y="0" width="1356" height="768" key="new project wizard" timestamp="1579702723117">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1376" y="0" width="1356" height="768" key="new project wizard/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579698524061" />
+    <state x="1376" y="0" width="1356" height="768" key="new project wizard/0.27.1366.701/1366.0.1366.768@1366.0.1366.768" timestamp="1579702723117" />
   </component>
 </project>

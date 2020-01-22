@@ -53,7 +53,6 @@ public class Ticket implements Serializable {
         this.ticketId = ticketId;
     }
 
-
     public String getStatus() {
         return status;
     }
