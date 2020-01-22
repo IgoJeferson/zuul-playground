@@ -26,8 +26,8 @@ public class TicketController {
         return ticketRepository.findTicketByNumeroPremiado(numeroticket);
     }
 
-    @GetMapping(value = "/ticket/produto/{produtoId}")
-    public Ticket findByTicketProduto(@PathVariable Integer produtoId) {
-        return ticketRepository.findAllByProdutoid(produtoId);
+    @GetMapping(value = "/ticket/product/{productId}")
+    public Ticket findByTicketProduct(@PathVariable Integer productId) {
+        return ticketRepository.findAllByProductId(productId);
     }
 }

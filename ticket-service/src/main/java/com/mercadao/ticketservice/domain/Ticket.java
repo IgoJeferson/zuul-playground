@@ -15,16 +15,16 @@ public class Ticket implements Serializable {
 
     @Id//Pk
     @Column(name = "TICKET_ID")
-    Integer ticketId;
+    private Integer ticketId;
 
     @Column(name = "NUMERO_PREMIADO")
-    Integer numeroPremiado;
+    private Integer numeroPremiado;
 
     @Column(name = "STATUS")
-    String status;
+    private String status;
 
-    @Column(name = "PRODUTO_ID")
-    Integer produtoid;
+    @Column(name = "PRODUCT_ID")
+    private Integer productId;
 
     public Ticket() {
         super();
@@ -33,15 +33,15 @@ public class Ticket implements Serializable {
     @Override
     public String toString() {
         return "Ticket [ticketId=" + ticketId + ", numeroPremiado=" + numeroPremiado + ", status=" + status
-                + ", produtoid=" + produtoid + "]";
+                + ", productId=" + productId + "]";
     }
 
-    public Ticket(Integer ticketId, Integer numeroPremiado, String status, Integer produtoid) {
+    public Ticket(Integer ticketId, Integer numeroPremiado, String status, Integer productId) {
         super();
         this.ticketId = ticketId;
         this.numeroPremiado = numeroPremiado;
         this.status = status;
-        this.produtoid = produtoid;
+        this.productId = productId;
     }
 
 
@@ -62,12 +62,12 @@ public class Ticket implements Serializable {
         this.status = status;
     }
 
-    public Integer getProdutoid() {
-        return produtoid;
+    public Integer getProductId() {
+        return productId;
     }
 
-    public void setProdutoid(Integer produtoid) {
-        this.produtoid = produtoid;
+    public void setProductId(Integer productId) {
+        this.productId = productId;
     }
 
     public Integer getNumeroPremiado() {

@@ -7,6 +7,6 @@ public interface TicketRepository extends CrudRepository<Ticket, Integer> {
 
     Ticket findTicketByNumeroPremiado(Integer numeroPremiado);
 
-    Ticket findAllByProdutoid(Integer produtoId);
+    Ticket findAllByProductId(Integer productId);
 
 }
