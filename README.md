@@ -1,6 +1,6 @@
-# Zuul 2 Playground
+# Zuul 1 Playground
 
- Gradle project used in Zuul 2 + Eureka studies ( Spring Cload Netflix Stack Studies )
+ Gradle project used in Zuul 1 + Eureka studies ( Spring Cloud Netflix Stack Studies )
 
 ## Technologies used
 

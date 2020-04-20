@@ -1,15 +1,14 @@
 package com.mercadao.apigateway;
 
-import com.mercadao.apigateway.filter.LoggerFilter;
+import com.mercadao.apigateway.filter.LogRequestFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableZuulProxy
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 public class ApiGatewayApplication {
 
     public static void main(String[] args) {
@@ -17,8 +16,8 @@ public class ApiGatewayApplication {
     }
 
     @Bean
-    public LoggerFilter loggerFilter(){
-        return new LoggerFilter();
+    public LogRequestFilter loggerRequestFilter(){
+        return new LogRequestFilter();
     }
 
 }

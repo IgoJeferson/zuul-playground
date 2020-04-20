@@ -3,42 +3,68 @@ spring:
     name: API-GATEWAY
 
 server:
-  port: 8080
+  port: 5000
 
-eureka:
-  client:
-    service-url:
-      default-zone: ${EUREKA_URI:localhost:8761/eureka}
-  instance:
-    prefer-ip-address: true
+#eureka:
+#  client:
+#    service-url:
+#      default-zone: ${EUREKA_URI:localhost:8761/eureka}
+#  instance:
+#    prefer-ip-address: true
 
 zuul:
   ignored-services: '*'
   prefix: /api
   routes:
-    ticket-service:
-      path: /ticket/**
-      serviceId: TICKET-SERVICE
-      strip-prefix: false
-    product-service:
-      path: /product/**
-      serviceId: PRODUCT-SERVICE
-      strip-prefix: false
+#    ticket-service:
+#      path: /ticket/**
+#      serviceId: TICKET-SERVICE
+#      strip-prefix: false
+#    product-service:
+#      path: /product/**
+#      serviceId: PRODUCT-SERVICE
+#      strip-prefix: false
     external-service:
       path: /external/**
       serviceId: external-service
+    central-service:
+      path: /rest/central/**
+      serviceId: central-service
+      stripPrefix: false
+    image-service:
+      path: /rest/image/**
+      serviceId: central-service
+      stripPrefix: false
   host:
     socket-timeout-millis: 30000
 
-  ribbon:
-    eureka:
-      enabled: false
-    eager-load:
-      enabled: true
+#  ribbon:
+#    eureka:
+#      enabled: false
+#    eager-load:
+#      enabled: true
 
 external-service:
   ribbon:
     listOfServers: https://httpbin.org/
+    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
+    ConnectTimeout: 1000
+    ReadTimeout: 3000
+    MaxTotalHttpConnections: 500
+    MaxConnectionsPerHost: 100
+
+central-service:
+  ribbon:
+    listOfServers: http://localhost:8080/
+    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
+    ConnectTimeout: 1000
+    ReadTimeout: 3000
+    MaxTotalHttpConnections: 500
+    MaxConnectionsPerHost: 100
+
+image-service:
+  ribbon:
+    listOfServers: http://localhost:8080/
     NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
     ConnectTimeout: 1000
     ReadTimeout: 3000
